@@ -1,4 +1,7 @@
-<?php
-require '../src/autoloader.php';
+<?php declare(strict_types=1);
 
-$o = new \Framework\Http\Request;
+use Framework\Http\Request;
+
+require '../autoloader.php';
+
+$req = new Request;
